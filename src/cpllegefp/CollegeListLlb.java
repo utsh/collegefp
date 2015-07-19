@@ -39,7 +39,6 @@ public class CollegeListLlb extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\admin\\Desktop\\frt3.jpg")); // NOI18N
         jLabel1.setText("jLabel1");
         jLabel1.setPreferredSize(new java.awt.Dimension(410, 300));
 
@@ -49,19 +48,19 @@ public class CollegeListLlb extends javax.swing.JFrame {
 
         jButton1.setText("Jagannath Institute of mangement Studies");
         jPanel2.add(jButton1);
-        jButton1.setBounds(80, 50, 250, 23);
+        jButton1.setBounds(80, 50, 250, 29);
 
         jButton2.setText("Trinity School of Management");
         jPanel2.add(jButton2);
-        jButton2.setBounds(80, 90, 250, 23);
+        jButton2.setBounds(80, 90, 250, 29);
 
         jButton3.setText("Fairfield Institue of Management");
         jPanel2.add(jButton3);
-        jButton3.setBounds(80, 130, 250, 23);
+        jButton3.setBounds(80, 130, 250, 29);
 
         jButton4.setText("Maharaja Suraj of Institue of Managament");
         jPanel2.add(jButton4);
-        jButton4.setBounds(77, 170, 250, 23);
+        jButton4.setBounds(77, 170, 250, 29);
 
         jButton5.setText("BLS  Institute of Management");
         jButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -70,21 +69,20 @@ public class CollegeListLlb extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jButton5);
-        jButton5.setBounds(80, 210, 250, 23);
+        jButton5.setBounds(80, 210, 250, 29);
 
         jButton6.setText("Fore Institute of Management");
         jPanel2.add(jButton6);
-        jButton6.setBounds(80, 250, 250, 23);
+        jButton6.setBounds(80, 250, 250, 29);
 
         jButton7.setText("back");
         jPanel2.add(jButton7);
-        jButton7.setBounds(20, 270, 55, 23);
+        jButton7.setBounds(20, 270, 75, 29);
 
         jLabel3.setText("B.B.A Colleges");
         jPanel2.add(jLabel3);
         jLabel3.setBounds(150, 10, 90, 30);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\admin\\Desktop\\frt3.jpg")); // NOI18N
         jLabel2.setText("jLabel2");
         jPanel2.add(jLabel2);
         jLabel2.setBounds(0, 4, 410, 300);
