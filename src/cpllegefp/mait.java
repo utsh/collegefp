@@ -3,19 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package cpllegefp;
 
 /**
  *
- * @author admin
+ * @author lopa
  */
-public class cpfmain extends javax.swing.JFrame {
+public class mait extends javax.swing.JFrame {
 
     /**
-     * Creates new form cpfmain
+     * Creates new form mait
      */
-    public cpfmain() {
+    public mait() {
         initComponents();
     }
 
@@ -29,56 +28,89 @@ public class cpfmain extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setLayout(null);
 
-        jButton1.setText("Start");
+        jLabel2.setText("jLabel2");
+        jPanel1.add(jLabel2);
+        jLabel2.setBounds(200, 30, 290, 190);
+
+        jLabel3.setFont(new java.awt.Font("Algerian", 1, 24)); // NOI18N
+        jLabel3.setText("Maharaja agrasen Institute of Technology");
+        jPanel1.add(jLabel3);
+        jLabel3.setBounds(50, 234, 600, 30);
+
+        jLabel4.setText("jLabel4");
+        jPanel1.add(jLabel4);
+        jLabel4.setBounds(70, 280, 34, 14);
+
+        jLabel5.setText("Admission Criteria: IPCET");
+        jPanel1.add(jLabel5);
+        jLabel5.setBounds(80, 590, 140, 14);
+
+        jLabel6.setText("Intake: 360 Students");
+        jPanel1.add(jLabel6);
+        jLabel6.setBounds(80, 620, 120, 14);
+
+        jLabel7.setText("Fees: 1,20,200/-");
+        jPanel1.add(jLabel7);
+        jLabel7.setBounds(80, 650, 82, 14);
+
+        jLabel8.setText("Address:");
+        jPanel1.add(jLabel8);
+        jLabel8.setBounds(80, 670, 43, 14);
+
+        jLabel9.setText("Phone no.: ");
+        jPanel1.add(jLabel9);
+        jLabel9.setBounds(80, 700, 56, 14);
+
+        jLabel10.setText("Website:");
+        jPanel1.add(jLabel10);
+        jLabel10.setBounds(80, 730, 70, 14);
+
+        jButton1.setText("Back");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(450, 300, 57, 23);
-
-        jLabel2.setFont(new java.awt.Font("Imprint MT Shadow", 0, 24)); // NOI18N
-        jLabel2.setText("LETZZZ GO COLLEGE");
-        jPanel1.add(jLabel2);
-        jLabel2.setBounds(160, 260, 276, 29);
-
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\lopa\\Downloads\\appimg.jpg")); // NOI18N
-        jLabel3.setText("jLabel3");
-        jPanel1.add(jLabel3);
-        jLabel3.setBounds(80, 10, 430, 240);
-
-        jLabel1.setText("jLabel1");
-        jPanel1.add(jLabel1);
-        jLabel1.setBounds(0, 0, 590, 290);
+        jButton1.setBounds(20, 790, 55, 23);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, 0)
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 666, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 333, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 820, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        cpf1 s= new cpf1();
-        s.show();
-        this.dispose();
+       cpf2 ma= new cpf2();
+       ma.show();
+       this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
@@ -98,29 +130,35 @@ public class cpfmain extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(cpfmain.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(mait.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(cpfmain.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(mait.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(cpfmain.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(mait.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(cpfmain.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(mait.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new cpfmain().setVisible(true);
+                new mait().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
